@@ -10,18 +10,22 @@
 </head>
 <body>
   <div class="wrapper">
-    <a href="#"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
-    <h2>ავტორიზაცია</h2>
+    <div class="fr">
+      <a href="#" id="backbtn"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+      <h2>ავტორიზაცია</h2>
+    </div>
     <h1>რეგისტრაცია</h1>
-    <button>ტასკერი</button>
-    <button>შემსრულებელი</button>
+    <div class="buttons">
+      <button class="butt" id="Tasker">ტასკერი</button>
+      <button class="butt"id="NotTasker">შემსრულებელი</button>
+    </div>
     <form>
-      <input type="text" name="full name" placeholder="სახელი და გვარი" required><br>
-      <input type="text" name="phone number" placeholder="ტელეფონის ნომერი" required><br>
-      <input type="email" name="email" placeholder="ელ-ფოსტა" required><br>
-      <input type="password" name="password" placeholder="პაროლი" required><br>
-      <input type="password" name="password" placeholder="გაიმეორეთ პაროლი" required><br>
-      <input type="submit" value="გაგრძელება">
+      <input class="signUp"type="text" name="full name" placeholder="სახელი და გვარი" required>
+      <input class="signUp" type="text" name="phone number" placeholder="ტელეფონის ნომერი" required>
+      <input class="signUp" type="email" name="email" placeholder="ელ-ფოსტა" required>
+      <input class="signUp" type="password" name="password" placeholder="პაროლი" required>
+      <input class="signUp" type="password" name="password" placeholder="გაიმეორეთ პაროლი" required>
+      <input class="sub" type="submit" value="გაგრძელება">
     </form>
 
   </div>
