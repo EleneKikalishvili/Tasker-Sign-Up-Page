@@ -1,5 +1,7 @@
-body {
-  font-family: Arial, Helvetica, sans-serif;
+body,
+html {
+  background-color: #ff4d00;
+
 }
 
 .wrapper {
@@ -8,9 +10,10 @@ body {
   max-width: 414px;
   height: 896px;
   margin: auto;
-  background: rgba(0, 0, 0, 0.8);
+  background: #ffffff;
   box-sizing: border-box;
   padding: 126px 32px 40px 32px;
+  font-family: 'Times New Roman', Times, serif;
 }
 .fr {
   display: flex;
@@ -20,9 +23,25 @@ body {
 }
 h2 {
   margin: 0;
+  font-family: HelveticaNeueLTGEO-55Roman;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #172333;
 }
 h1 {
   margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  color: #172333;
 }
 
 #backbtn {
@@ -36,8 +55,9 @@ h1 {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.06);
   background-color: #f5f5f5;
   border-radius: 24px;
+  margin-right: 14.5px;
   outline: none;
-  color: black;
+  color: #172333;
   
 }
 
@@ -46,30 +66,44 @@ h1 {
   position: absolute;
 }
 
-#Tasker {
-  margin: 32px 24px 24px 0.5px;
+.buttons {
+  color: #6b737d;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
   outline: none;
   border: none;
-  background-color: #ff4d00;
   border-radius: 24px;
+}
+
+.buttons:hover{
+  background-color: #ff4d00;
+  color: white;
+}
+
+#Tasker {
+  margin: 32px 24px 24px 0.5px;
   padding: 15px 24.5px;
+  background-color: #ff4d00;
+  color: #ffffff;
 }
 
 #NotTasker {
   margin-top: 32px;
   margin-bottom: 24px;
-  outline: none;
-  border: none;
-  background-color: #ffffff;
   padding: 15px 24px;
-  border-radius: 24px;
-  color: #6b737d;
 }
 
 form {
 display: flex;
 flex-direction: column;
 position: relative;
+color: #172333;
 }
 
 .signUp {
@@ -80,9 +114,10 @@ position: relative;
   padding-bottom: 16px;
   outline: none;
   border: none;
-  border-bottom: 2px solid #dadada;
+  border-bottom: 1px solid #dadada;
   font-weight: bold;
-  background: rgba(0, 0, 0, 0.1);
+  color: #172333;
+  
 }
 
 .sub {
@@ -95,6 +130,57 @@ position: relative;
   background-color: #5fad56;
   outline: none;
   border: none;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
   color: #ffffff;
   
+}
+
+::-webkit-input-placeholder {
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #172333;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+}
+
+
+:-ms-input-placeholder {
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #172333;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+}
+
+:-moz-placeholder {
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #172333;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+}
+
+::-moz-placeholder {
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #172333;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
 }
