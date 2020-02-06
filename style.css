@@ -1,7 +1,12 @@
+@font-face {
+  src: url(fonts/Helvetica.woff);
+  font-family: HelveticaN;
+}
+
 body,
 html {
   background-color: #ff4d00;
-
+  font-family: HelveticaN;
 }
 
 .wrapper {
@@ -14,7 +19,7 @@ html {
   background: #ffffff;
   box-sizing: border-box;
   padding: 76.8px 32px 40px 32px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: HelveticaN;
 }
 
 #logo {
@@ -33,7 +38,7 @@ html {
 }
 h2 {
   margin: 0;
-  font-family: HelveticaNeueLTGEO-55Roman;
+  font-family: HelveticaN;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -45,6 +50,7 @@ h2 {
 }
 h1 {
   margin: 0;
+  font-family: HelveticaN;
   font-size: 24px;
   font-weight: bold;
   font-stretch: normal;
@@ -78,6 +84,7 @@ h1 {
 
 .buttons {
   color: #6b737d;
+  font-family: HelveticaN;
   font-size: 15px;
   font-weight: 500;
   font-stretch: normal;
@@ -148,6 +155,7 @@ color: #172333;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
+  font-family: HelveticaN;
   line-height: 1.21;
   letter-spacing: normal;
   color: #ffffff;
@@ -156,7 +164,7 @@ color: #172333;
 
 ::-webkit-input-placeholder {
   font-size: 16px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: HelveticaN;
   color: #172333;
   font-weight: normal;
   font-stretch: normal;
@@ -168,7 +176,7 @@ color: #172333;
 
 :-ms-input-placeholder {
   font-size: 16px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: HelveticaN;
   color: #172333;
   font-weight: normal;
   font-stretch: normal;
@@ -179,7 +187,7 @@ color: #172333;
 
 :-moz-placeholder {
   font-size: 16px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: HelveticaN;
   color: #172333;
   font-weight: normal;
   font-stretch: normal;
@@ -190,7 +198,7 @@ color: #172333;
 
 ::-moz-placeholder {
   font-size: 16px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: HelveticaN;
   color: #172333;
   font-weight: normal;
   font-stretch: normal;
