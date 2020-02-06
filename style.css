@@ -139,6 +139,12 @@ color: #172333;
   
 }
 
+.PhoneNum {
+  padding-bottom: 16px;
+  padding-top: 5px;
+  margin-top: 38px;
+}
+
 .sub {
   display: flex;
   margin-top: 148.5px;
