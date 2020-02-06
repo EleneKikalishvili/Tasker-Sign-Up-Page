@@ -11,7 +11,7 @@ html {
 
 .wrapper {
   max-width: 414px;
-  height: 896px;
+  /* height: 896px; */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -30,7 +30,7 @@ html {
   margin-bottom: 24.8px;
 }
 
-.fr {
+.FirstBtnLine {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -118,7 +118,7 @@ h1 {
 
 form {
 display: flex;
-height: 613px;
+height: 512.5px;
 justify-content: flex-end;
 flex-direction: column;
 position: relative;
