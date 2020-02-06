@@ -13,9 +13,18 @@ html {
   margin: auto;
   background: #ffffff;
   box-sizing: border-box;
-  padding: 126px 32px 40px 32px;
+  padding: 76.8px 32px 40px 32px;
   font-family: 'Times New Roman', Times, serif;
 }
+
+#logo {
+  display: flex;
+  align-self: flex-start;
+  width: 150px;
+  height: 26px;
+  margin-bottom: 24.8px;
+}
+
 .fr {
   display: flex;
   flex-direction: row;
